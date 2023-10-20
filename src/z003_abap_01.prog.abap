@@ -8,4 +8,3 @@ REPORT z003_abap_01.
 PARAMETERS p_name TYPE c LENGTH 11 LOWER CASE.
 
 WRITE: 'Hallo ', (*) p_name NO-GAP, ', wie geht es Dir?'.
-WRITE: / |Hallo { p_name }, wie gehts?|.
